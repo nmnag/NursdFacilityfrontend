@@ -1,0 +1,86 @@
+  
+  h1{
+     margin-top: 70px;
+        font-family: century-gothic;
+        font-weight: 100;
+        
+        font-style: normal;
+        color:  #1082CB;
+        text-align: center;
+    }
+
+  .logo{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+    }
+
+ p{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: century-gothic;
+    padding-top: 50px;
+    font-style: normal;
+      font-family: century-gothic;
+      text-align: left;
+      font-size:24px;
+      font-weight: lighter;
+    }
+   
+    .in{
+
+    	border: none;
+      padding: 0;
+    margin: 0;
+      border-bottom: 1px solid black;
+      width: 90%;
+      
+    }
+  
+    .MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 2.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+  }
+ 
+
+
+button{
+      background: #1082CB;
+      color: white;
+      border: 1px solid #1082CB;
+      font-family: 'century-gothic ';
+      border-radius: 2px;
+      height:"3.0rem";
+      width:"30.3rem";
+      padding-bottom: 50px; 
+      float: right;
+     }
+  button:hover{
+      background: #38b1ff;
+      color: white;
+      border: 2px solid #1082CB;
+  }
+
+
+
+

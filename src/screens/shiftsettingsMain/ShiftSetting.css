@@ -1,0 +1,279 @@
+.sslogotop{
+    margin-top: 20px;
+  }
+  
+  .sstopnav{
+    height: 90px;
+    background-color:#FFFF;
+  }
+  .MuiAppBar-colorPrimary{
+    background-color: #FFF;
+    color: #000000;
+  
+  }
+  .MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+    background-color: #FFF;
+    color: #000000;
+  }
+  .ssbutt3{
+    display: inline;
+    margin-left: 650px;
+    margin-top: 20px;
+    background: #1082CB;
+    color: white;
+    border: 1px solid #1082CB;
+    border-radius: 3px;
+  }
+  .ssbutt3:hover{
+      background: #38b1ff;
+      color: white;
+      border: 2px solid #1082CB;
+  }
+  .ssshifts{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: black;
+  }
+  .ssbell{
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .ssac{
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  
+  .ssGroups{
+    width: 80%;
+  }
+  
+  .ssab{
+    color: #1082CB;
+    font-family: 'century-gothic';
+  }
+  
+  .sspic{
+    height: 50px;
+  }
+  
+  .ssavatar{
+    margin-top: 80px;
+    margin-left: 60px;
+    width: 130px;
+  }
+  
+  .ssp{
+    font-family: 'century-gothic';
+  }
+  
+  .sshead{
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 2px;
+  }
+  .sslist{
+    margin-left: 50px;
+    font-size: 15px;
+  }
+  
+  
+  .ssin{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    outline: none;
+    margin-bottom: 20px;
+     }
+     .ssin1{
+  
+         border: none;
+         border-bottom: 1px solid black;
+         width: 90%;
+         outline: none;
+          margin-left: 50px;
+          margin-bottom: 20px;
+     }
+  
+  .ssh3{
+    font-size: 24;
+    color:#1082CB;
+    font-family: century-gothic;
+    margin-top: 150px;
+  }
+  .ssh1{
+    font-size: 24;
+    color:#000;
+    font-family: century-gothic;
+    margin-top: 150px;
+    /* margin-bottom: 150px; */
+  }
+  .ssh2{
+    font-size: 24;
+    color:#1082CB;
+    font-family: century-gothic;
+  }
+  .ssp{
+  
+    font-family: century-gothic;
+  }
+  
+  .sslabel{
+    font-family: century-gothic;
+  }
+  
+  .ssp1{
+    margin-left: 50px;
+  }
+  .ssp2{
+    margin-left: 50px;
+  }
+  .ssinp{
+          border: none;
+          border-bottom: 1px solid black;
+          width: 100%;
+          outline: none;
+          margin-bottom: 20px;
+  
+  }
+  
+  .ssCheckbox{
+    background-color: #F2F2F2;
+  }
+  
+  .ssslide{
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  .ssarrow{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-image: url('Frame 10.png');
+    background-position: right center;
+    background-size: 15px 25px;
+  }
+  
+  .ssarrow1{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 90%;
+    outline: none;
+     margin-left: 50px;
+     margin-bottom: 20px;
+     padding: 8px;
+     background-color: white;
+     background-repeat: no-repeat;
+     background-image: url('Frame 10.png');
+     background-position: right center;
+     background-size: 15px 25px;
+  }
+  #basic-select select {
+  /* Appearance: none will hide the default arrow */
+  appearance: none;
+  /* Best to include the browser prefix for cross-browser compatibility */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  }
+  
+  .ssfooter{
+    background-color: #F1FAFF;
+    height: 50vh;
+    width: 100%;
+    margin-top: 15px;
+  }
+  
+  .ssyo{
+    margin-left: 50px;
+  }
+  
+  .sslogo{
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  
+  .ssabout{
+    margin-left: 30px;
+  
+  }
+  .ssfop{
+    margin-top: 45px;
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .ssfohe{
+    font-family: century-gothic;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  
+  .sstext{
+    font-size: 12px;
+  }
+  
+  .ssdevider{
+    margin-left: 20px;
+    height: 290px;
+  }
+  
+  .ssfacebook{
+    margin-left: 30px;
+  }
+  
+  .sstwitter{
+    margin-left: 50px;
+  }
+  .ssbol{
+    margin-top: 80px;
+  }
+  
+  .ssfool{
+    margin-top: 80px;
+    display: inline;
+  }
+  .ssfool2{
+    margin-top: 80px;
+    display: inline;
+    margin-left: 50px;
+  }
+  .ssl1{
+    display: inline;
+  }
+  
+  .ssl12{
+    display: inline;
+    margin-left: 35px;
+  }
+  
+  .ssl2{
+    display: inline;
+  }
+  
+  .ssl22{
+    display: inline;
+    margin-left: 30px;
+  }
+  
+  .ssl3{
+    display: inline;
+  }
+  
+  .ssl32{
+    display: inline;
+    margin-left: 85px;
+  }
+  
+  .ssl4{
+    display: inline;
+  }
+  
+  .ssl42{
+    display: inline;
+    margin-left: 80px;
+  }
+  

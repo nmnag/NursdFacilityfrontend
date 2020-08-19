@@ -1,0 +1,284 @@
+.ewlogotop{
+  margin-top: 20px;
+}
+
+.ewtopnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+.ewbutt3{
+  display: inline;
+  margin-left: 650px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.ewbutt31{
+  display: inline;
+  margin-left: 0px;
+  margin-top: 10px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.ewbutt3:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.ewshifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.ewbell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.ewac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.ewGroups{
+  width: 80%;
+}
+
+.ewab{
+  color: #1082CB;
+  font-family: 'century-gothic';
+}
+
+.ewpic{
+  height: 50px;
+}
+
+.ewavatar{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 130px;
+}
+
+.ewp{
+  font-family: 'century-gothic';
+}
+
+.ewhead{
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+.ewlist{
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+
+.ewin{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+  margin-bottom: 20px;
+   }
+   .ewin1{
+
+       border: none;
+       border-bottom: 1px solid black;
+       width: 90%;
+       outline: none;
+        margin-left: 50px;
+        margin-bottom: 20px;
+   }
+
+.ewh3{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+  margin-top: 150px;
+}
+.ewh2{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+}
+.ewp{
+
+  font-family: century-gothic;
+}
+
+.ewlabel{
+  font-family: century-gothic;
+}
+
+.ewp1{
+  margin-left: 50px;
+}
+.ewp2{
+  margin-left: 50px;
+}
+.ewinp{
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+
+.ewCheckbox{
+  background-color: #F2F2F2;
+}
+
+.ewslide{
+  width: 80%;
+  margin-left: 20px;
+}
+
+.ewarrow{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url('Frame 10.png');
+  background-position: right center;
+  background-size: 15px 25px;
+}
+
+.ewarrow1{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   padding: 8px;
+   background-color: white;
+   background-repeat: no-repeat;
+   background-image: url('Frame 10.png');
+   background-position: right center;
+   background-size: 15px 25px;
+}
+#basic-select select {
+/* Appearance: none will hide the default arrow */
+appearance: none;
+/* Best to include the browser prefix for cross-browser compatibility */
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.ewfooter{
+  background-color: #F1FAFF;
+  height: 50vh;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.ewyo{
+  margin-left: 50px;
+}
+
+.ewlogo{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.ewabout{
+  margin-left: 30px;
+
+}
+.ewfop{
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.ewfohe{
+  font-family: century-gothic;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.ewtext{
+  font-size: 12px;
+}
+
+.ewdevider{
+  margin-left: 20px;
+  height: 290px;
+}
+
+.ewfacebook{
+  margin-left: 30px;
+}
+
+.ewtwitter{
+  margin-left: 50px;
+}
+.ewbol{
+  margin-top: 80px;
+}
+
+.ewfool{
+  margin-top: 80px;
+  display: inline;
+}
+.ewfool2{
+  margin-top: 80px;
+  display: inline;
+  margin-left: 50px;
+}
+.ewl1{
+  display: inline;
+}
+
+.ewl12{
+  display: inline;
+  margin-left: 35px;
+}
+
+.ewl2{
+  display: inline;
+}
+
+.ewl22{
+  display: inline;
+  margin-left: 30px;
+}
+
+.ewl3{
+  display: inline;
+}
+
+.ewl32{
+  display: inline;
+  margin-left: 85px;
+}
+
+.ewl4{
+  display: inline;
+}
+
+.ewl42{
+  display: inline;
+  margin-left: 80px;
+}
+.ewpq{
+  display :inline;
+  margin-right: 40px;
+}

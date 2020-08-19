@@ -1,0 +1,285 @@
+.inslogotop{
+  margin-top: 20px;
+}
+
+.instopnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+.insbutt3{
+  display: inline;
+  margin-left: 650px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.insbutt3:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.insshifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.insbell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.insac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.insGroups{
+  width: 80%;
+}
+
+.insab{
+  color: #1082CB;
+  font-family: 'century-gothic';
+}
+
+.inspic{
+  height: 50px;
+}
+
+.insavatar{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 130px;
+}
+
+.insp{
+  font-family: 'century-gothic';
+}
+
+.inshead{
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+.inslist{
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+
+.insin{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+  margin-bottom: 20px;
+   }
+   .insin1{
+
+       border: none;
+       border-bottom: 1px solid black;
+       width: 90%;
+       outline: none;
+        margin-left: 50px;
+        margin-bottom: 20px;
+   }
+
+.insh3{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+  margin-top: 150px;
+}
+.insh1{
+  font-size: 24;
+  color:#000;
+  font-family: century-gothic;
+  margin-top: 150px;
+  /* margin-bottom: 150px; */
+}
+.v1{
+  font-size: 50;
+  color:#1082CB;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 150px; */
+  /* margin-bottom: 150px; */
+}
+.insh2{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+}
+.insp{
+
+  font-family: century-gothic;
+}
+
+.inslabel{
+  font-family: century-gothic;
+}
+
+.insp1{
+  margin-left: 50px;
+}
+.insp2{
+  margin-left: 50px;
+}
+.insinp{
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+
+.insCheckbox{
+  background-color: #F2F2F2;
+}
+
+.insslide{
+  width: 80%;
+  margin-left: 20px;
+}
+
+.insarrow{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url('Frame 10.png');
+  background-position: right center;
+  background-size: 15px 25px;
+}
+
+.insarrow1{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   padding: 8px;
+   background-color: white;
+   background-repeat: no-repeat;
+   background-image: url('Frame 10.png');
+   background-position: right center;
+   background-size: 15px 25px;
+}
+#basic-select select {
+/* Appearance: none will hide the default arrow */
+appearance: none;
+/* Best to include the browser prefix for cross-browser compatibility */
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.insfooter{
+  background-color: #F1FAFF;
+  height: 50vh;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.insyo{
+  margin-left: 50px;
+}
+
+.inslogo{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.insabout{
+  margin-left: 30px;
+
+}
+.insfop{
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.insfohe{
+  font-family: century-gothic;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.instext{
+  font-size: 12px;
+}
+
+.insdevider{
+  margin-left: 20px;
+  height: 290px;
+}
+
+.insfacebook{
+  margin-left: 30px;
+}
+
+.instwitter{
+  margin-left: 50px;
+}
+.insbol{
+  margin-top: 80px;
+}
+
+.fool{
+  margin-top: 80px;
+  display: inline;
+}
+.fool2{
+  margin-top: 80px;
+  display: inline;
+  margin-left: 50px;
+}
+.insl1{
+  display: inline;
+}
+
+.insl12{
+  display: inline;
+  margin-left: 35px;
+}
+
+.insl2{
+  display: inline;
+}
+
+.insl22{
+  display: inline;
+  margin-left: 30px;
+}
+
+.insl3{
+  display: inline;
+}
+
+.insl32{
+  display: inline;
+  margin-left: 85px;
+}
+
+.insl4{
+  display: inline;
+}
+
+.insl42{
+  display: inline;
+  margin-left: 80px;
+}

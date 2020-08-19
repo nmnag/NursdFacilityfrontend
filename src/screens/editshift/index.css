@@ -1,0 +1,84 @@
+.eslogotop{
+  margin-top: 20px;
+}
+
+.estopnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+
+.esbutt7{
+  display: inline;
+  margin-left: 550px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.esbutt7:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.esshifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.esbell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.esac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.esbutt2{background: #1082CB;
+      color: white;
+      border: 1px solid #1082CB;
+      font-family: 'Franklin Gothic ';
+      border-radius: 2px;
+      height:"2.0rem";
+      width:"10.3rem";
+      padding-bottom: 50px;
+}
+
+.esbutt2:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.esin{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 60%;
+  outline: none;
+  margin-bottom: 20px;
+   }
+
+.esp{
+  font-family: century-gothic;
+}
+
+.esp1{
+  margin-top: 75px;
+}
+
+.esedit{
+ color: #1082CB;
+ font-family: Gotham;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 24px;
+ line-height: 29px;
+}

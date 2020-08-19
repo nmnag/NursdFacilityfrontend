@@ -1,0 +1,278 @@
+.lflogotop{
+  margin-top: 20px;
+}
+
+.lftopnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+.lfbutt3{
+  display: inline;
+  margin-left: 650px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.lfbutt3:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.lfshifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.lfbell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.lfac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.lfGroups{
+  width: 80%;
+}
+
+.lfab{
+  color: #1082CB;
+  font-family: 'century-gothic';
+}
+
+.lfpic{
+  height: 50px;
+}
+
+.lfavatar{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 130px;
+}
+
+.lfp{
+  font-family: 'century-gothic';
+}
+
+.lfhead{
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+.lflist{
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+
+.lfin{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+  margin-bottom: 20px;
+   }
+   .lfin1{
+
+       border: none;
+       border-bottom: 1px solid black;
+       width: 90%;
+       outline: none;
+        margin-left: 50px;
+        margin-bottom: 20px;
+   }
+
+.lfh3{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+  margin-top: 150px;
+}
+.lfh1{
+  font-size: 24;
+  color:#000;
+  font-family: century-gothic;
+  margin-top: 150px;
+  /* margin-bottom: 150px; */
+}
+.lfh2{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+}
+.lfp{
+
+  font-family: century-gothic;
+}
+
+.lflabel{
+  font-family: century-gothic;
+}
+
+.lfp1{
+  margin-left: 50px;
+}
+.lfp2{
+  margin-left: 50px;
+}
+.lfinp{
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+
+.lfCheckbox{
+  background-color: #F2F2F2;
+}
+
+.lfslide{
+  width: 80%;
+  margin-left: 20px;
+}
+
+.lfarrow{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url('Frame 10.png');
+  background-position: right center;
+  background-size: 15px 25px;
+}
+
+.lfarrow1{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   padding: 8px;
+   background-color: white;
+   background-repeat: no-repeat;
+   background-image: url('Frame 10.png');
+   background-position: right center;
+   background-size: 15px 25px;
+}
+#basic-select select {
+/* Appearance: none will hide the default arrow */
+appearance: none;
+/* Best to include the browser prefix for cross-browser compatibility */
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.lffooter{
+  background-color: #F1FAFF;
+  height: 50vh;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.lfyo{
+  margin-left: 50px;
+}
+
+.lflogo{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.lfabout{
+  margin-left: 30px;
+
+}
+.lffop{
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.lffohe{
+  font-family: century-gothic;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.lftext{
+  font-size: 12px;
+}
+
+.lfdevider{
+  margin-left: 20px;
+  height: 290px;
+}
+
+.lffacebook{
+  margin-left: 30px;
+}
+
+.lftwitter{
+  margin-left: 50px;
+}
+.lfbol{
+  margin-top: 80px;
+}
+
+.lffool{
+  margin-top: 80px;
+  display: inline;
+}
+.lffool2{
+  margin-top: 80px;
+  display: inline;
+  margin-left: 50px;
+}
+.lfl1{
+  display: inline;
+}
+
+.lfl12{
+  display: inline;
+  margin-left: 35px;
+}
+
+.lfl2{
+  display: inline;
+}
+
+.lfl22{
+  display: inline;
+  margin-left: 30px;
+}
+
+.lfl3{
+  display: inline;
+}
+
+.lfl32{
+  display: inline;
+  margin-left: 85px;
+}
+
+.lfl4{
+  display: inline;
+}
+
+.lfl42{
+  display: inline;
+  margin-left: 80px;
+}
