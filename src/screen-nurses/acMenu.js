@@ -9,7 +9,9 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 import SendIcon from '@material-ui/icons/Send';
 import {Link} from 'react-router-dom';
-import Group94 from './Group 9454.png'
+import Group94 from './Group 9454.png';
+
+
 
 
 const StyledMenu = withStyles({
@@ -73,35 +75,45 @@ export default function CustomizedMenus() {
         onClose={handleClose}
       >
         <StyledMenuItem>
-        <Link to="/facility">
+        <Link to="/n-licenses">
+          <ListItemText primary="My Profile" />
+        </Link>
+        </StyledMenuItem>
+
+        <StyledMenuItem>
+        <Link to="/n-profile">
           <ListItemText primary="Account" />
         </Link>
         </StyledMenuItem>
 
         <StyledMenuItem>
-        <Link to="/">
+        {/* <Link to="/n-desktop45"> */}
           <ListItemText primary="Settings" />
-        </Link>
+        {/* </Link> */}
         </StyledMenuItem>
 
         <StyledMenuItem>
-        <Link to="/">
+        {/* <Link to="/n-desktop45"> */}
           <ListItemText primary="Help Center" />
-        </Link>
+        {/* </Link> */}
         </StyledMenuItem>
 
         <StyledMenuItem>
-        <Link to="/">
+        {/* <Link to="/n-desktop45"> */}
           <ListItemText primary="Report a Problem" />
-        </Link>
+        {/* </Link> */}
         </StyledMenuItem>
 
         <StyledMenuItem>
-        <Link to="/">
+        {/* <Link to="/n-desktop45"> */}
           <ListItemText primary="Terms and Policies" />
-        </Link>
+        {/* </Link> */}
         </StyledMenuItem>
-       
+
+
+
+        
+        
       </StyledMenu>
     </div>
   );

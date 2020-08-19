@@ -5,7 +5,7 @@ import Group65 from './Group 65.png';
 import Bell from './bell.png'
 import Group76 from './Group 76 .png'
 import Group44 from './Group 44.png'
-// import Group94 from './Group 9454.png'
+import Group94 from './Group 9454.png'
 // import Devider from './devider.png'
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -79,7 +79,7 @@ const Faci = ()=>{
                         
                         <img src={Bell} alt="Bell" className="dfbell"/>
 
-                        <div  className="dfshifts">
+                        <div className="ac">
                         <AccountsMenu />
                         </div>
                         

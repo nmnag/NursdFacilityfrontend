@@ -27,6 +27,9 @@ import Input from '@material-ui/core/Input';
 import logo from './logo.png';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import Grid from '@material-ui/core/Grid';
+import {Link} from 'react-router-dom';
+import ShiftMenu from "../ShiftsMenu";
+import ACCMenu from "../acMenu";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -48,25 +51,31 @@ const Faci = ()=>{
             <div>
             <div>
             <AppBar style={{backgroundColor:'#FFF'}}className="xyztopnav" position="static">
-              <Toolbar>
-                <img src={Group} alt="Group" className="xyzlogotop"/>
-                <button style={{
-                        paddingTop:"0.3rem",
-                        paddingRight:"0.7rem",
-                        paddingBottom:"0.3rem",
-                        paddingLeft:"0.7rem"
-                        }}
-                        className="xyzbutt7" >
-                        <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
-                <p className="xyzshifts">
-                  Shifts
-                </p>
-                <p  className="xyzshifts">
-                  Messages
-                </p>
-                <img src={Bell} alt="Bell" className="xyzbell"/>
-                <img src={Group94} alt="Group94" className="xyzac"/>
-              </Toolbar>
+            <Toolbar>
+                  <img src={Group} alt="Group" className="logotop"/>
+                  <Link to="/n-cards">
+                  <button style={{
+                          paddingTop:"0.3rem",
+                          paddingRight:"0.7rem",
+                          paddingBottom:"0.3rem",
+                          paddingLeft:"0.7rem"
+                          }}
+                          className="lolbutt3" >
+                          <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
+                          </Link>
+
+                  <div className="dfshifts">
+                    <ShiftMenu/>
+                    </div>
+
+                  <p  className="shifts">
+                    Messages
+                  </p>
+                  <img src={Bell} alt="Bell" className="bell"/>
+                  <div className="ac">
+                    <ACCMenu/>
+                    </div>
+                </Toolbar>
             </AppBar>
           </div>
           <Container style={{width: "60rem"}}>

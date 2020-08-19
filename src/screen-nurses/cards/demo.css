@@ -41,9 +41,9 @@ p{
   margin-top: 20px;
   margin-left: 30px;
 }
-.ac{
-  margin-left: 30px;
-  margin-top: 10px;
+.ac2{
+  /* margin-left: 30px; */
+  /* margin-top: 10px; */
 }
 .sort{
   font-size: 18px;
@@ -53,6 +53,7 @@ p{
   margin-top: 25px;
   font-family: century-gothic;
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 .MuiInputBase-input{
  margin-top: 1px;

@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////////////////////////////////////
+////////       THE TITLES ARE ACCORDING TO THE TITLES GIVEN ON FIGMA        ////////
+////////////////////////////////////////////////////////////////////////////////////
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -34,7 +37,7 @@ import desktop45 from "./screen-nurses/desktop45/index";
 import profile from "./screen-nurses/profile/index";
 import Application from "./screen-nurses/xyz/index";
 import cancelShifts from "./screen-nurses/cancelShifts/index";
-import licenses from "./screen-nurses/profile/index"; 
+import licenses from "./screen-nurses/licensesProfile/index"; 
 
 
 ReactDOM.render(

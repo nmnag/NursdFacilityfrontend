@@ -43,6 +43,9 @@ import TextField from '@material-ui/core/TextField';
 import { DateTimePicker, MuiPickersUtilsProvider,KeyboardTimePicker,KeyboardDatePicker } from "@material-ui/pickers";
 import {Link} from 'react-router-dom';
 import ShiftMenu from "../ShiftsMenu";
+import Group from './Group 65.png'
+import ACCMenu from "../acMenu";
+
 
 const drawerWidth = 280;
 
@@ -88,26 +91,31 @@ return(
           <div className={classes.root}>
           <CssBaseline />
            <AppBar style={{backgroundColor:'#FFF', height:'100px'}}className={classes.appBar} position="fixed">
-             <Toolbar>
-               <img src={Group65} alt="Group65" className="logotop"/>
-               <button style={{
-                       paddingTop:"0.3rem",
-                       paddingRight:"0.7rem",
-                       paddingBottom:"0.3rem",
-                       paddingLeft:"0.7rem"
-                       }}
-                       className="lolbutt3" >
-                       <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
-               {/* <p className="shifts">
-                 Shifts
-               </p> */}
-               <ShiftMenu/>
-               <p  className="shifts">
-                 Messages
-               </p>
-               <img src={Bell} alt="Bell" className="bell"/>
-               <img src={Group94} alt="Group94" className="ac"/>
-             </Toolbar>
+           <Toolbar>
+                  <img src={Group} alt="Group" className="logotop"/>
+                  <Link to="/n-cards">
+                  <button style={{
+                          paddingTop:"0.3rem",
+                          paddingRight:"0.7rem",
+                          paddingBottom:"0.3rem",
+                          paddingLeft:"0.7rem"
+                          }}
+                          className="lolbutt3" >
+                          <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
+                          </Link>
+
+                  <div className="dfshifts">
+                    <ShiftMenu/>
+                    </div>
+
+                  <p  className="shifts">
+                    Messages
+                  </p>
+                  <img src={Bell} alt="Bell" className="bell"/>
+                  <div className="ac">
+                    <ACCMenu/>
+                    </div>
+                </Toolbar>
            </AppBar>
            <Drawer
      className={classes.drawer}

@@ -9,6 +9,9 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 import SendIcon from '@material-ui/icons/Send';
 import {Link} from 'react-router-dom';
+import Group94 from './Group 9454.png'
+
+
 const StyledMenu = withStyles({
   paper: {
     border: '1px solid #d3d4d5',
@@ -56,11 +59,11 @@ export default function CustomizedMenus() {
       <Button
         aria-controls="customized-menu"
         aria-haspopup="true"
-        variant="contained"
+        // variant="contained"
         color="primary"
         onClick={handleClick}
       >
-        Accounts
+        <img src={Group94} alt="Group94" className="ac2"/>
       </Button>
       <StyledMenu
         id="customized-menu"

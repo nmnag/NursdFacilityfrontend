@@ -4,14 +4,12 @@ import './demo.css'
 import ReactDom from 'react-dom'
 import Bookmark from './bookmark 1.png';
 import Calendar from './calendar 1.png';
-import Bell from './bell.png'
 import Clock from './clock.png';
-import Settings from './settings.png'
-import Group from './Group 65.png'
+import Settings from './settings.png';
+// import Group from './Group 65.png'
 import Divider from './Divider.png'
 import Sliders from './sliders.png'
 import Facebook from './facebook 1.png'
-import Group94 from './Group 9454.png'
 import Linkedin from './linkedin 1.png'
 import Twitter from './twitter 1.png'
 import Grid from '@material-ui/core/Grid';
@@ -28,8 +26,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
+
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import Pagination from '@material-ui/lab/Pagination';
@@ -39,8 +36,14 @@ import TextField from '@material-ui/core/TextField';
 import Slider from '@material-ui/core/Slider';
 import Radio from '@material-ui/core/Radio';
 import { DateTimePicker, MuiPickersUtilsProvider,KeyboardTimePicker,KeyboardDatePicker } from "@material-ui/pickers";
-
-import ShiftMenu from "./ShiftsMenu";
+import {Link} from 'react-router-dom';
+import ShiftMenu from "../ShiftsMenu";
+import Group from './Group 65.png';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Group94 from './Group 9454.png';
+import Bell from './bell.png';
+import ACCMenu from "../acMenu";
 
 const marks = [
   {
@@ -126,6 +129,7 @@ const Faci = ()=>{
               <AppBar style={{backgroundColor:'#FFF'}}className="topnav" position="static">
                 <Toolbar>
                   <img src={Group} alt="Group" className="logotop"/>
+                  <Link to="/n-cards">
                   <button style={{
                           paddingTop:"0.3rem",
                           paddingRight:"0.7rem",
@@ -134,17 +138,21 @@ const Faci = ()=>{
                           }}
                           className="lolbutt3" >
                           <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
-                  {/* <p className="shifts">
-                    Shifts
-                  </p> */}
+                          </Link>
 
-                  <ShiftMenu/>
+                  <div className="dfshifts">
+                    <ShiftMenu/>
+                    </div>
 
                   <p  className="shifts">
                     Messages
                   </p>
                   <img src={Bell} alt="Bell" className="bell"/>
-                  <img src={Group94} alt="Group94" className="ac"/>
+                  
+                  <div className="ac">
+                    <ACCMenu/>
+                    </div>
+                  
                 </Toolbar>
               </AppBar>
             </div>

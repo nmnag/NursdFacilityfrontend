@@ -131,7 +131,7 @@ return(
                         
                         <img src={Bell} alt="Bell" className="dfbell"/>
 
-                        <div  className="dfshifts">
+                        <div className="ac">
                         <AccountsMenu />
                         </div>
                         
