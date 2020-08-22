@@ -1,0 +1,95 @@
+.rqh2{
+  color: #1082CB;
+  font-size: 24px;
+  font-family: century-gothic;
+}
+
+rqp{
+  font-size: 24px;
+  font-family: century-gothic;
+}
+
+.rqin{
+  width:20%;
+  border: none;
+border-bottom: 1px solid black;
+}
+
+.rqcheckBox{
+  display: inline;
+}
+
+.rqbox{
+  display: inline;
+}
+.rqbox1{
+  display: inline;
+  margin-left: 30px;
+}
+
+.rqbox2{
+  display: inline;
+}
+
+.rqp2{
+  display: inline;
+}
+.rqinp{
+  display: inline;
+  width: 20%;
+  border: none;
+  margin-left: 20px;
+border-bottom: 1px solid black;
+
+outline: none;
+margin-bottom: 20px;
+}
+
+.rqinp1{
+  display: inline;
+  width: 20%;
+  border: none;
+  margin-left: 50px;
+border-bottom: 1px solid black;
+
+outline: none;
+margin-bottom: 20px;
+}
+
+.rqinp2{
+  display: inline;
+  width: 20%;
+  border: none;
+  margin-left: 30px;
+border-bottom: 1px solid black;
+
+outline: none;
+margin-bottom: 20px;
+}
+
+.rqinp3{
+  display: inline;
+  width: 20%;
+  border: none;
+  margin-left: 40px;
+border-bottom: 1px solid black;
+
+outline: none;
+margin-bottom: 20px;
+}
+
+.rqbutt2{background: #1082CB;
+      color: white;
+      border: 1px solid #1082CB;
+      font-family: 'Franklin Gothic ';
+      border-radius: 2px;
+      height:"2.0rem";
+      width:"10.3rem";
+      padding-bottom: 50px;
+}
+
+.rqbutt2:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}

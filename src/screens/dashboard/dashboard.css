@@ -1,0 +1,215 @@
+.dflogotop{
+  margin-top: 20px;
+}
+
+.dftopnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.dfMuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+
+.dfbutt7{
+  display: inline;
+  margin-left: 650px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.dfbutt7plain{
+  display: inline;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: #ffffff;
+  /* color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px; */
+}
+.dfbutt7:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.dfshifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.dfbell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.dfac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.dfHI{
+ margin-top: 50px;
+ margin-left: 10px;
+ font-family: century-gothic;
+ font-style: normal;
+ font-weight: lighter;
+ font-size: 18px;
+ text-align: center;
+}
+
+.dfbox{
+position: center;
+width: 700px;
+height: 75px;
+margin-left: 350px;
+padding: 25px;
+border: 1px solid #1082CB;
+box-sizing: border-box;
+border-radius: 10px;
+margin-bottom: 50px;
+}
+
+.dfadd{
+  text-align: center;
+  font-family: century-gothic;
+  margin-top: 15px;
+  margin-left: 100px;
+  align-content: center;
+  font-size: 15px;
+  display: inline;
+}
+
+.dfpa{
+  text-align: center;
+  align-content: center;
+  font-size: 10px;
+
+  font-family: century-gothic;
+  display: inline;
+  float: right;
+  color: #1082CB;
+}
+
+.MuiButton-root{
+  color:#1082CB;
+
+}
+.MuiButton-label{
+ display: inline;
+ text-align: center;
+ /* margin-right: 500px; */
+
+}
+
+.dfinsight{
+font-family: Gotham;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+  display:inline;
+  margin-left: 70px;
+  color: #1082CB;
+}
+
+.dfleft{
+  display:inline;
+}
+
+.dfdate{
+  font-size: 15px;
+  display:inline;
+}
+.dfright{
+  display:inline;
+  margin-left: 5px;
+}
+
+.dfcardhead{
+  background-color: #F1FAFF;
+  margin-top: 50px;
+  margin-left: 320px;
+  border-radius: 15px 15px 0px 0px;
+  padding: 20px;
+  width: 59%;
+  height: 20px;
+}
+
+.dfcardbott{
+  width: 62%;
+  height: 300px;
+  margin-left: 320px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.dfschedule{
+  text-align: center;
+  font-family: century-gothic;
+  font-size: 20px;
+}
+
+.dfzero{
+  text-align: center;
+  font-size: 42px;
+  font-family: century-gothic;
+  color: #1082CB;
+  display: inline;
+  margin-bottom: 2px;
+  margin-left: 170px;
+}
+
+.dfhrs{
+  text-align: center;
+  font-size: 20px;
+  font-family: century-gothic;
+  color: #1082CB;
+  display: inline;
+}
+
+.dfweek{
+  text-align: center;
+  font-family: century-gothic;
+  font-size: 15px;
+  margin-top: 0.5px;
+  margin-bottom: 50px;
+
+}
+
+.dfDZ{
+  text-align: center;
+  font-family: century-gothic;
+  font-size: 20px;
+  color: #00BD4C;
+  display: inline;
+  margin-left: 40px;
+}
+
+.dfDZL{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  display: inline;
+}
+
+.dfDZ1{
+  text-align: center;
+  font-family: century-gothic;
+  font-size: 20px;
+  color: #00BD4C;
+  display: inline;
+  margin-left: 40px;
+
+}
+
+.dfDZL1{
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  display: inline;
+
+}

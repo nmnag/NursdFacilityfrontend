@@ -1,0 +1,344 @@
+.fplogotop{
+  margin-top: 20px;
+}
+
+.fptopnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+.fpbutt3{
+  display: inline;
+  margin-left: 650px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.fpbutt3:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.fpshifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.fpbell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.fpac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.fpGroups{
+  width: 80%;
+}
+
+.fpab{
+  color: #1082CB;
+  font-family: 'century-gothic';
+}
+
+.fppic{
+  height: 50px;
+}
+
+.fpavatar{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 130px;
+}
+
+.fpp{
+  font-family: 'century-gothic';
+}
+
+.fphead{
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+.fplist{
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+
+.fpin{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+  margin-bottom: 20px;
+   }
+   .fpin1{
+
+       border: none;
+       border-bottom: 1px solid black;
+       width: 90%;
+       outline: none;
+        margin-left: 50px;
+        margin-bottom: 20px;
+   }
+
+.fpin4{
+
+       border: none;
+       border-bottom: 1px solid black;
+       width: 90%;
+       outline: none;
+        margin-left: 2px;
+        margin-bottom: 20px;
+}
+
+.fpin5{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+   margin-left: 10px;
+   margin-bottom: 20px;
+}
+.fpselect{
+     border: none;
+       width: 90%;
+       height: 40px;
+       padding: 12px 20px;
+       padding-top: 20px;
+       border-radius: 8px;
+     background-color: #f2f2f2;
+     background-repeat: no-repeat;
+     background-image: url('Polygon 1.png');
+     background-position: right center;
+     background-size: 12px 12px;
+   }
+
+.fpselect:hover {
+   border-radius: 8px;
+   background-image:url(Polygon 2.png);
+   background-position: right center;
+   border: 2px solid #1082CB;
+  }
+
+  .fpfield{
+
+      border:none;
+      width: 90%;
+      height: 40px;
+      padding: 12px 20px;
+      padding-top: 20px;
+      border-radius: 8px;
+    	background-color: #f2f2f2;
+    	margin-top: 10px;
+    	margin-bottom: 70px;
+
+
+    }
+
+    .fpfield:hover {
+    border-radius: 8px;
+    border: 2px solid #1082CB;
+   }
+
+
+.fph3{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+  margin-top: 150px;
+}
+.fph2{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+}
+.fpp{
+
+  font-family: century-gothic;
+}
+
+.fplabel{
+  font-family: century-gothic;
+}
+
+.fpp1{
+  margin-left: 50px;
+}
+
+.fpp4{
+  margin-left: 2px;
+}
+
+.fpp5{
+  margin-left: 10px;
+}
+.fpp2{
+  margin-left: 50px;
+}
+
+.fpp7{
+  margin-top: 30px;
+}
+.fpinp{
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+
+
+.fparrow:hover{
+   color: #1082CB;
+
+}
+
+
+#basic-select select {
+/* Appearance: none will hide the default arrow */
+appearance: none;
+/* Best to include the browser prefix for cross-browser compatibility */
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+
+.fpinp1{
+        border: none;
+        width: 100%;
+        background-color: #f2f2f2;
+        height: 60px;
+        border-radius: 5px;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+
+.fpinp2{
+        border: none;
+        width: 100%;
+        background-color: #f2f2f2;
+        height: 40px;
+        border-radius: 5px;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+.fpinp1:hover {
+   border-radius: 5px;
+   border: 2px solid #1082CB;
+  }
+  .fpinp2:hover {
+     border-radius: 5px;
+     border: 2px solid #1082CB;
+    }
+
+.fpfooter{
+  background-color: #F1FAFF;
+  height: 50vh;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.fpyo{
+  margin-left: 50px;
+}
+
+.fplogo{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.fpabout{
+  margin-left: 30px;
+
+}
+.fpfop{
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.fpfohe{
+  font-family: century-gothic;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.fptext{
+  font-size: 12px;
+}
+
+.fpdevider{
+  margin-left: 20px;
+  height: 290px;
+}
+
+.fpfacebook{
+  margin-left: 30px;
+}
+
+.fptwitter{
+  margin-left: 50px;
+}
+.fpbol{
+  margin-top: 80px;
+}
+
+.fpfool{
+  margin-top: 80px;
+  display: inline;
+}
+.fpfool2{
+  margin-top: 80px;
+  display: inline;
+  margin-left: 50px;
+}
+.fpl1{
+  display: inline;
+}
+
+.fpl12{
+  display: inline;
+  margin-left: 35px;
+}
+
+.fpl2{
+  display: inline;
+}
+
+.fpl22{
+  display: inline;
+  margin-left: 30px;
+}
+
+.fpl3{
+  display: inline;
+}
+
+.fpl32{
+  display: inline;
+  margin-left: 85px;
+}
+
+.fpl4{
+  display: inline;
+}
+
+.fpl42{
+  display: inline;
+  margin-left: 80px;
+}

@@ -1,0 +1,278 @@
+.blnlogotop{
+  margin-top: 20px;
+}
+
+.blntopnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+.blnbutt3{
+  display: inline;
+  margin-left: 650px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.blnbutt3:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.blnshifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.blnbell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.blnac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.blnGroups{
+  width: 80%;
+}
+
+.blnab{
+  color: #1082CB;
+  font-family: 'century-gothic';
+}
+
+.blnpic{
+  height: 50px;
+}
+
+.blnavatar{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 130px;
+}
+
+.blnp{
+  font-family: 'century-gothic';
+}
+
+.blnhead{
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+.blnlist{
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+
+.blnin{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+  margin-bottom: 20px;
+   }
+   .blnin1{
+
+       border: none;
+       border-bottom: 1px solid black;
+       width: 90%;
+       outline: none;
+        margin-left: 50px;
+        margin-bottom: 20px;
+   }
+
+.blnh3{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+  margin-top: 150px;
+}
+.h1{
+  font-size: 24;
+  color:#000;
+  font-family: century-gothic;
+  margin-top: 150px;
+  /* margin-bottom: 150px; */
+}
+.blnh2{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+}
+.blnp{
+
+  font-family: century-gothic;
+}
+
+.blnlabel{
+  font-family: century-gothic;
+}
+
+.blnp1{
+  margin-left: 50px;
+}
+.blnp2{
+  margin-left: 50px;
+}
+.blninp{
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+
+.blnCheckbox{
+  background-color: #F2F2F2;
+}
+
+.blnslide{
+  width: 80%;
+  margin-left: 20px;
+}
+
+.ablnrrow{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url('Frame 10.png');
+  background-position: right center;
+  background-size: 15px 25px;
+}
+
+.blnarrow1{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   padding: 8px;
+   background-color: white;
+   background-repeat: no-repeat;
+   background-image: url('Frame 10.png');
+   background-position: right center;
+   background-size: 15px 25px;
+}
+#basic-select select {
+/* Appearance: none will hide the default arrow */
+appearance: none;
+/* Best to include the browser prefix for cross-browser compatibility */
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.blnfooter{
+  background-color: #F1FAFF;
+  height: 50vh;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.blnyo{
+  margin-left: 50px;
+}
+
+.blnlogo{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.blnabout{
+  margin-left: 30px;
+
+}
+.blnfop{
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.blnfohe{
+  font-family: century-gothic;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.blntext{
+  font-size: 12px;
+}
+
+.blndevider{
+  margin-left: 20px;
+  height: 290px;
+}
+
+.blnfacebook{
+  margin-left: 30px;
+}
+
+.blntwitter{
+  margin-left: 50px;
+}
+.blnbol{
+  margin-top: 80px;
+}
+
+.blnfool{
+  margin-top: 80px;
+  display: inline;
+}
+.blnfool2{
+  margin-top: 80px;
+  display: inline;
+  margin-left: 50px;
+}
+.blnl1{
+  display: inline;
+}
+
+.blnl12{
+  display: inline;
+  margin-left: 35px;
+}
+
+.blnl2{
+  display: inline;
+}
+
+.blnl22{
+  display: inline;
+  margin-left: 30px;
+}
+
+.blnl3{
+  display: inline;
+}
+
+.blnl32{
+  display: inline;
+  margin-left: 85px;
+}
+
+.blnl4{
+  display: inline;
+}
+
+.blnl42{
+  display: inline;
+  margin-left: 80px;
+}

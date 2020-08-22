@@ -1,0 +1,271 @@
+.logotop{
+  margin-top: 20px;
+}
+
+.topnav{
+  height: 90px;
+  background-color:#FFFF;
+}
+.MuiAppBar-colorPrimary{
+  background-color: #FFF;
+  color: #000000;
+
+}
+.MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary topnav MuiPaper-elevation4{
+  background-color: #FFF;
+  color: #000000;
+}
+.butt3{
+  display: inline;
+  margin-left: 650px;
+  margin-top: 20px;
+  background: #1082CB;
+  color: white;
+  border: 1px solid #1082CB;
+  border-radius: 3px;
+}
+.butt3:hover{
+    background: #38b1ff;
+    color: white;
+    border: 2px solid #1082CB;
+}
+.shifts{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: black;
+}
+.bell{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.ac{
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.Groups{
+  width: 80%;
+}
+
+.ab{
+  color: #1082CB;
+  font-family: 'century-gothic';
+}
+
+.pic{
+  height: 50px;
+}
+
+.avatar{
+  margin-top: 80px;
+  margin-left: 60px;
+  width: 130px;
+}
+
+p{
+  font-family: 'century-gothic';
+}
+
+.head{
+  font-size: 25px;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+.list{
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+
+.in{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+  margin-bottom: 20px;
+   }
+   .in1{
+
+       border: none;
+       border-bottom: 1px solid black;
+       width: 90%;
+       outline: none;
+        margin-left: 50px;
+        margin-bottom: 20px;
+   }
+
+.h3{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+  margin-top: 150px;
+}
+.h2{
+  font-size: 24;
+  color:#1082CB;
+  font-family: century-gothic;
+}
+p{
+
+  font-family: century-gothic;
+}
+
+label{
+  font-family: century-gothic;
+}
+
+.p1{
+  margin-left: 50px;
+}
+.p2{
+  margin-left: 50px;
+}
+.inp{
+        border: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        outline: none;
+        margin-bottom: 20px;
+
+}
+
+Checkbox{
+  background-color: #F2F2F2;
+}
+
+.slide{
+  width: 80%;
+  margin-left: 20px;
+}
+
+.arrow{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  outline: none;
+  padding: 8px;
+  margin-bottom: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url('Frame 10.png');
+  background-position: right center;
+  background-size: 15px 25px;
+}
+
+.arrow1{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 90%;
+  outline: none;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   padding: 8px;
+   background-color: white;
+   background-repeat: no-repeat;
+   background-image: url('Frame 10.png');
+   background-position: right center;
+   background-size: 15px 25px;
+}
+#basic-select select {
+/* Appearance: none will hide the default arrow */
+appearance: none;
+/* Best to include the browser prefix for cross-browser compatibility */
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+.footer{
+  background-color: #F1FAFF;
+  height: 50vh;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.yo{
+  margin-left: 50px;
+}
+
+.logo{
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.about{
+  margin-left: 30px;
+
+}
+.fop{
+  margin-top: 45px;
+  font-size: 12px;
+  font-weight: 900;
+}
+.fohe{
+  font-family: century-gothic;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.text{
+  font-size: 12px;
+}
+
+.devider{
+  margin-left: 20px;
+  height: 290px;
+}
+
+.facebook{
+  margin-left: 30px;
+}
+
+.twitter{
+  margin-left: 50px;
+}
+.bol{
+  margin-top: 80px;
+}
+
+.fool{
+  margin-top: 80px;
+  display: inline;
+}
+.fool2{
+  margin-top: 80px;
+  display: inline;
+  margin-left: 50px;
+}
+.l1{
+  display: inline;
+}
+
+.l12{
+  display: inline;
+  margin-left: 35px;
+}
+
+.l2{
+  display: inline;
+}
+
+.l22{
+  display: inline;
+  margin-left: 30px;
+}
+
+.l3{
+  display: inline;
+}
+
+.l32{
+  display: inline;
+  margin-left: 85px;
+}
+
+.l4{
+  display: inline;
+}
+
+.l42{
+  display: inline;
+  margin-left: 80px;
+}
