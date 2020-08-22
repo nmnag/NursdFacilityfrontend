@@ -162,10 +162,11 @@ const ShiftSettings = ()=>{
                 <img src={Group65} alt="Group" className="dflogotop"/>
                 <Link to="/request">
                 <button style={{
+                        marginLeft:'500px',
                         paddingTop:"0.3rem",
-                        paddingRight:"0.7rem",
+                        paddingRight:"0.3rem",
                         paddingBottom:"0.3rem",
-                        paddingLeft:"0.7rem"
+                        paddingLeft:"0.3rem"
                         }}
                         className="dfbutt7" >
                         <span style={{fontSize:"0.9rem"}}>Post a Request</span></button>
@@ -201,13 +202,13 @@ const ShiftSettings = ()=>{
                         <div className="dfshifts">
                         <ToolsMenu />
                         </div>
-                        
+
                         <img src={Bell} alt="Bell" className="dfbell"/>
 
                         <div className="ac">
                         <AccountsMenu />
                         </div>
-                        
+
 
 
 
@@ -232,7 +233,7 @@ const ShiftSettings = ()=>{
                   <option value="four">Report a Problem</option>
                   <option value="four">Terms & Policies</option>
 
-                </select> 
+                </select>
                 </div> */}
               </Toolbar>
           </AppBar>
@@ -253,7 +254,7 @@ const ShiftSettings = ()=>{
        <p className="sslist"><Link to="/livefeed"> Live Feed </Link></p>
        <p className="sslist"><Link to="/billing"> Billing </Link></p>
        <p className="sslist"> <Link to="/shiftset" style={{backgroundColor:"#3f51b5", color:"white", borderWidth:10, borderRadius: 5, borderColor:"green"}}>Shift Settings</Link> </p>
-      
+
 
 
       </div>
@@ -261,14 +262,14 @@ const ShiftSettings = ()=>{
   </Drawer>
         </div>
 
-        <Container style={{width: "100rem", marginTop: "10rem"}}>
+        <Container style={{width: "50rem", marginTop: "10rem"}}>
               <form>
 
               <h2 className="ssh1">Upcoming Shifts for 5th Jul'20-11th Jul'20 </h2>
 
               <div style={{marginBottom: "3rem"}}>
                 <ShiftTable/>
-              
+
               </div>
               <div style={{marginBottom: "3rem"}}>
                 <WardTable/>

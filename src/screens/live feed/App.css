@@ -15,7 +15,7 @@
   background-color: #FFF;
   color: #000000;
 }
-.lfbutt3{
+.dfbutt3{
   display: inline;
   margin-left: 650px;
   margin-top: 20px;
@@ -24,10 +24,10 @@
   border: 1px solid #1082CB;
   border-radius: 3px;
 }
-.lfbutt3:hover{
+.dfbutt3:hover{
     background: #38b1ff;
     color: white;
-    border: 2px solid #1082CB;
+    border: 1px solid #1082CB;
 }
 .lfshifts{
   margin-top: 30px;
@@ -56,13 +56,13 @@
   height: 50px;
 }
 
-.lfavatar{
+.lifavatar{
   margin-top: 80px;
   margin-left: 60px;
   width: 130px;
 }
 
-.lfp{
+.lifp{
   font-family: 'century-gothic';
 }
 
@@ -71,7 +71,7 @@
   margin-left: 80px;
   margin-top: 2px;
 }
-.lflist{
+.liflist{
   margin-left: 50px;
   font-size: 15px;
 }

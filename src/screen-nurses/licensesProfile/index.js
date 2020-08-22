@@ -102,14 +102,17 @@ const Faci = ()=>{
           <Toolbar>
                   <img src={Group} alt="Group" className="logotop"/>
                   <Link to="/n-cards">
+
                   <button style={{
+                          marginLeft:'680px',
                           paddingTop:"0.3rem",
-                          paddingRight:"0.7rem",
+                          paddingRight:"0.3rem",
                           paddingBottom:"0.3rem",
-                          paddingLeft:"0.7rem"
+                          paddingLeft:"0.3rem"
                           }}
-                          className="lolbutt3" >
-                          <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
+                          className="dfbutt7" >
+                          <span style={{fontSize:"0.9rem"}}> Find a shift</span></button>
+
                           </Link>
 
                   <div className="dfshifts">
@@ -146,7 +149,7 @@ const Faci = ()=>{
       <p className="list">Awards </p>
       <p className="list"> Volunteering </p>
       <p className="list"> Project </p>
-      
+
 
 
       </div>
@@ -174,13 +177,13 @@ const Faci = ()=>{
               <input className="inp"  type="text" />
               <input className="inp"  type="text" />
               <h2 className="h2"> References </h2>
-            
-              
-              
+
+
+
                 <input className="inp"  type="text" />
                 <input  className="inp" type="text" />
-              
-            
+
+
               <h2 className="h2"> Work Experience </h2>
               <Grid container>
                 <Grid item xs={4}>
@@ -197,7 +200,7 @@ const Faci = ()=>{
                       </label>
                       <input className="in"  type="text" />
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
                 <Grid item xs={4}>
@@ -206,7 +209,7 @@ const Faci = ()=>{
                       </label>
                       <input className="in"  type="text" />
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
               </Grid>
@@ -224,7 +227,7 @@ const Faci = ()=>{
                       <p className="p2"> From Date</p>
                       </label>
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
                 <Grid item xs={4}>
@@ -232,18 +235,18 @@ const Faci = ()=>{
                       <p className="p2"> End Date</p>
                       </label>
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
               </Grid>
               <h2 className="h2"> Languages </h2>
-             
+
               <input className="inp"  type="text" />
               <h2 className="h2"> Awards </h2>
-             
+
              <input className="inp"  type="text" />
 
-              <h2 className="h2"> Volunteering </h2>     
+              <h2 className="h2"> Volunteering </h2>
               <Grid container>
                 <Grid item xs={4}>
                 <div> <label className="name">
@@ -257,7 +260,7 @@ const Faci = ()=>{
                       <p className="p2"> From Date</p>
                       </label>
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
                 <Grid item xs={4}>
@@ -265,7 +268,7 @@ const Faci = ()=>{
                       <p className="p2"> End Date</p>
                       </label>
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
               </Grid>
@@ -274,8 +277,8 @@ const Faci = ()=>{
                       </label>
                 </div>
                 <input className="inp"  type="text" />
-             
-                <h2 className="h2"> Projects </h2>     
+
+                <h2 className="h2"> Projects </h2>
               <Grid container>
                 <Grid item xs={4}>
                 <div> <label className="name">
@@ -289,7 +292,7 @@ const Faci = ()=>{
                       <p className="p2"> From Date</p>
                       </label>
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
                 <Grid item xs={4}>
@@ -297,7 +300,7 @@ const Faci = ()=>{
                       <p className="p2"> End Date</p>
                       </label>
                       <input className="in"  type="text" />
-                      
+
                 </div>
                 </Grid>
               </Grid>
@@ -306,14 +309,14 @@ const Faci = ()=>{
                       </label>
                 </div>
                 <input className="inp"  type="text" />
-             
+
               </form>
           </Container>
           <div className="footer">
                   <Container style={{width: "60rem"}}>
                   <Grid container>
                    <Grid item xs={3}>
-                   <img src={Group65} alt="Group65" className="logo"/>
+                   <img src={Group65} alt="Group65" className="cdlogo"/>
                    </Grid>
                    <Grid item xs={4} style={{marginLeft:'50px'}}>
                     <div className="about">

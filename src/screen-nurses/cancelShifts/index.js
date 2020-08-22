@@ -22,14 +22,17 @@ import ACCMenu from "../acMenu";
                 <Toolbar>
                   <img src={Group} alt="Group" className="logotop"/>
                   <Link to="/n-cards">
+
                   <button style={{
+                          marginLeft:'680px',
                           paddingTop:"0.3rem",
-                          paddingRight:"0.7rem",
+                          paddingRight:"0.3rem",
                           paddingBottom:"0.3rem",
-                          paddingLeft:"0.7rem"
+                          paddingLeft:"0.3rem"
                           }}
-                          className="lolbutt3" >
-                          <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
+                          className="dfbutt7" >
+                          <span style={{fontSize:"0.9rem"}}> Find a shift</span></button>
+
                           </Link>
 
                   <div className="dfshifts">
@@ -68,32 +71,32 @@ import ACCMenu from "../acMenu";
                                         <option value="three">Three</option>
                                         <option value="four">Four</option>
                                    </select>
-               
+
                    <Grid Container>
-                    <Grid item xs={6}>
-                      <TextField
-                        id="date"
-                        type="date"
-                        defaultValue="2017-05-24"
-                        className="csarrow"
-                      />
+                   <Grid item xs={6}>
+                     <TextField style={{marginLeft:'30px'}}
+                       id="date"
+                       type="date"
+                       defaultValue="2017-05-24"
+                       className="csarrow2"
+                     />
+                   </Grid>
+                   <Grid item xs={6}>
+                     <TextField style={{marginLeft:'30px'}}
+                       id="time"
+                       type="time"
+                       defaultValue="07:30"
+                       className="csarrow3"
+                       inputProps={{
+                         step: 300
+                       }}
+                     />
+                   </Grid>
                     </Grid>
-                    <Grid item xs={6}>
-                      <TextField
-                        id="time"
-                        type="time"
-                        defaultValue="07:30"
-                        className="csarrow2"
-                        inputProps={{
-                          step: 300 
-                        }}
-                      />
-                    </Grid>
-                    </Grid>
-                    
-                  
-                
-                               
+
+
+
+
                                <div id="basic-select">
                                    <select className="csarrow2">
 
@@ -104,50 +107,50 @@ import ACCMenu from "../acMenu";
                                         <option value="four">Four</option>
                                    </select>
                                </div>
-                             
-              
+
+
               {/* <label>Job Description</label>
                 <textarea id = "myTextArea"
                   rows = "3"Yo
                   cols = "55"></textarea>
-                      
+
               <label>Compensation Structure - Optional</label>
                 <textarea id = "myTextArea"
                   rows = "3"
                   cols = "55"></textarea>
-               <div>        
+               <div>
               <label>Shift Structure - Optional</label>
                 <textarea id = "myTextArea"
                   rows = "3"
                   cols = "55"></textarea>
-                </div>       
-                <div>       
+                </div>
+                <div>
               <label>Any Remarks-Free to Edit</label>
                 <textarea id = "myTextArea"
                   rows = "3"
                   cols = "55"></textarea>
                 </div>        */}
-                      
-              
-      
-      </div>            
+
+
+
+      </div>
                         </Grid>
 
 
                         <Grid item xs={6}>
-                        
+
                 <label>About Facility</label>
                 <textarea id = "myTextArea"
                   rows = "3"
                   cols = "55"></textarea>
-                      
-                       
+
+
               <label>Remarks </label>
                 <textarea id = "myTextArea"
                   rows = "3"
                   cols = "55"></textarea>
 
-                                      <Grid item xs={6}>  
+                                      <Grid item xs={6}>
                                      <div style={{marginBottom:"3rem", marginTop:"1rem"}}>
                                          <button className="csbutt3" style={{
                                               paddingTop:"0.7rem",
@@ -169,9 +172,9 @@ import ACCMenu from "../acMenu";
                                           <span style={{fontSize:"1.0rem"}}>Message Facility</span></button>
                                      </div>
                                      </Grid>
-                                
-                                
-                       
+
+
+
                         </Grid>
                       </Grid>
                     </form>
