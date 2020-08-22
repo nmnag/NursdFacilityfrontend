@@ -104,15 +104,15 @@ const Faci = ()=>{
                 <img src={Group65} alt="Group" className="dflogotop"/>
                 <Link to="/request">
                 <button style={{
+                        marginLeft:'500px',
                         paddingTop:"0.3rem",
-                        paddingRight:"0.7rem",
+                        paddingRight:"0.3rem",
                         paddingBottom:"0.3rem",
-                        paddingLeft:"0.7rem"
+                        paddingLeft:"0.3rem"
                         }}
                         className="dfbutt7" >
                         <span style={{fontSize:"0.9rem"}}>Post a Request</span></button>
                         </Link>
-
                         <Link to="/dashboard-facility" style={{color:"#000"}}>
                 <button style={{
                         paddingTop:"0.3rem",
@@ -143,13 +143,13 @@ const Faci = ()=>{
                         <div className="dfshifts">
                         <ToolsMenu />
                         </div>
-                        
+
                         <img src={Bell} alt="Bell" className="dfbell"/>
 
                         <div className="ac">
                         <AccountsMenu />
                         </div>
-                        
+
 
 
 
@@ -174,7 +174,7 @@ const Faci = ()=>{
                   <option value="four">Report a Problem</option>
                   <option value="four">Terms & Policies</option>
 
-                </select> 
+                </select>
                 </div> */}
               </Toolbar>
           </AppBar>

@@ -54,10 +54,7 @@ export default function CustomizedMenus() {
   return (
     <div>
       <Button
-        aria-controls="customized-menu"
-        aria-haspopup="true"
-        variant="contained"
-        color="primary"
+        style={{color:'black'}}
         onClick={handleClick}
       >
         Shifts
@@ -87,8 +84,8 @@ export default function CustomizedMenus() {
         </Link>
         </StyledMenuItem>
 
-        
-        
+
+
       </StyledMenu>
     </div>
   );

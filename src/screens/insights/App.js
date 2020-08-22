@@ -24,7 +24,7 @@ import { Link } from 'react-router-dom';
 import ShiftsMenu from "../ShiftsMenu";
 import ToolsMenu from "../ToolMenu";
 import AccountsMenu from "../ACMenu";
-  
+
 const columns = [
   { id: 'types', label: 'Types', minWidth: 170 },
   // { id: 'stime', label: 'Start Time', minWidth: 100 },
@@ -126,14 +126,16 @@ const Faci = ()=>{
                 <img src={Group65} alt="Group" className="dflogotop"/>
                 <Link to="/request">
                 <button style={{
+                        marginLeft:'500px',
                         paddingTop:"0.3rem",
-                        paddingRight:"0.7rem",
+                        paddingRight:"0.3rem",
                         paddingBottom:"0.3rem",
-                        paddingLeft:"0.7rem"
+                        paddingLeft:"0.3rem"
                         }}
                         className="dfbutt7" >
                         <span style={{fontSize:"0.9rem"}}>Post a Request</span></button>
                         </Link>
+
 
                         <Link to="/dashboard-facility" style={{color:"#000"}}>
                 <button style={{
@@ -165,13 +167,13 @@ const Faci = ()=>{
                         <div className="dfshifts">
                         <ToolsMenu />
                         </div>
-                        
+
                         <img src={Bell} alt="Bell" className="dfbell"/>
 
                         <div className="ac">
                         <AccountsMenu />
                         </div>
-                        
+
 
 
 
@@ -196,7 +198,7 @@ const Faci = ()=>{
                   <option value="four">Report a Problem</option>
                   <option value="four">Terms & Policies</option>
 
-                </select> 
+                </select>
                 </div> */}
               </Toolbar>
           </AppBar>
@@ -209,20 +211,20 @@ const Faci = ()=>{
   >
     <Toolbar />
     <div className={classes.drawerContainer}>
-      <img src={MaskGrouph} alt="MaskGrouph" className="insavatar"/>
-      <p className="inshead"> Anna C. </p>
-      <div>
-      <p className="inslist"> Schedule </p>
-      <p className="inslist"> Scheduled Shifts </p>
-      <p className="inslist"> Live Feed</p>
-      <p className="inslist">Billing </p>
-      <p className="inslist">Shift Settings</p>
+    <img src={MaskGrouph} alt="MaskGrouph" className="ssavatar"/>
+    <p className="sshead"> Anna C. </p>
+    <div>
+    <p className="sslist">Schedule </p>
+     <p className="sslist"> Schedule shifts> </p>
+     <p className="sslist">Live Feed </p>
+     <p className="sslist"> Billing </p>
+     <p className="sslist"> Shift Settings </p>
 
       </div>
     </div>
   </Drawer>
-        
-  
+
+
         <Container style={{width: "100rem"}}>
               <form>
 
@@ -233,9 +235,9 @@ const Faci = ()=>{
                   <Typography style={{fontSize:20, marginRight:30, marginTop:10, textAlign:"right"}}>
                     Scheduled Hours
                   </Typography>
-                  </div> 
+                  </div>
                   <div style={{flex:9, flexDirection:"column"}}>
-                    
+
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:30, color:"blue", margin:0,marginRight: 5, fontFamily:"sans-serif"  }}>
                     138
@@ -244,9 +246,9 @@ const Faci = ()=>{
                     Hrs
                   </p>
                   <p>
-                  scheduled this week 
+                  scheduled this week
                   </p>
-                  </div> 
+                  </div>
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green",marginRight: 5, lineHeight:"10%"   }}>
                     5.7%
@@ -254,18 +256,18 @@ const Faci = ()=>{
                   <p>
                     increase from scheduled last week
                   </p>
-                  </div> 
+                  </div>
 
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green", marginRight: 5, lineHeight:"10%"  }}>
-                  2.2% 
+                  2.2%
                   </p>
                   <p>
                      higher than the 4 week scheduled average
                   </p>
-                  </div> 
+                  </div>
 
-                  </div>  
+                  </div>
               </div>
 
               <div style={{marginTop: "3rem", flexDirection: "row", display:"flex"}}>
@@ -273,9 +275,9 @@ const Faci = ()=>{
                   <Typography style={{fontSize:20, marginRight:30, marginTop:10, textAlign:"right"}}>
                     Utilized Hours
                   </Typography>
-                  </div> 
+                  </div>
                   <div style={{flex:9, flexDirection:"column"}}>
-                    
+
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:30, color:"blue", margin:0,marginRight: 5, fontFamily:"sans-serif"  }}>
                     120
@@ -286,7 +288,7 @@ const Faci = ()=>{
                   <p>
                   utilised this week
                   </p>
-                  </div> 
+                  </div>
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green",marginRight: 5, lineHeight:"10%"   }}>
                     7.8%
@@ -294,18 +296,18 @@ const Faci = ()=>{
                   <p>
                     more hours worked than scheduled last week
                   </p>
-                  </div> 
+                  </div>
 
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green", marginRight: 5, lineHeight:"10%"  }}>
-                  4.5% 
+                  4.5%
                   </p>
                   <p>
                   more hours worked than the scheduled over last 4 weeks
                   </p>
-                  </div> 
+                  </div>
 
-                  </div>  
+                  </div>
               </div>
 
 
@@ -316,9 +318,9 @@ const Faci = ()=>{
                   <Typography style={{fontSize:20, marginRight:30, marginTop:10, textAlign:"right"}}>
                     Scheduled Hours
                   </Typography>
-                  </div> 
+                  </div>
                   <div style={{flex:9, flexDirection:"column"}}>
-                    
+
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:30, color:"blue", margin:0,marginRight: 5, fontFamily:"sans-serif"  }}>
                     576
@@ -327,9 +329,9 @@ const Faci = ()=>{
                     Hrs
                   </p>
                   <p>
-                  scheduled this week 
+                  scheduled this week
                   </p>
-                  </div> 
+                  </div>
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green",marginRight: 5, lineHeight:"10%"   }}>
                     6.7%
@@ -337,18 +339,18 @@ const Faci = ()=>{
                   <p>
                     increase from scheduled last week
                   </p>
-                  </div> 
+                  </div>
 
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green", marginRight: 5, lineHeight:"10%"  }}>
-                  3.8% 
+                  3.8%
                   </p>
                   <p>
                      higher than the 4 week scheduled average
                   </p>
-                  </div> 
+                  </div>
 
-                  </div>  
+                  </div>
               </div>
 
               <div style={{marginTop: "3rem", flexDirection: "row", display:"flex"}}>
@@ -356,9 +358,9 @@ const Faci = ()=>{
                   <Typography style={{fontSize:20, marginRight:30, marginTop:10, textAlign:"right"}}>
                     Utilized Hours
                   </Typography>
-                  </div> 
+                  </div>
                   <div style={{flex:9, flexDirection:"column"}}>
-                    
+
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:30, color:"blue", margin:0,marginRight: 5, fontFamily:"sans-serif"  }}>
                     498
@@ -369,7 +371,7 @@ const Faci = ()=>{
                   <p>
                   utilised this week
                   </p>
-                  </div> 
+                  </div>
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green",marginRight: 5, lineHeight:"10%"   }}>
                     8.9%
@@ -377,28 +379,28 @@ const Faci = ()=>{
                   <p>
                     more hours worked than scheduled last week
                   </p>
-                  </div> 
+                  </div>
 
                   <div style={{flexDirection: "row", display:"flex"}}>
                   <p style={{fontSize:22, color:"green", marginRight: 5, lineHeight:"10%"  }}>
-                  5.6% 
+                  5.6%
                   </p>
                   <p>
                   more hours worked than the scheduled over last 4 weeks
                   </p>
-                  </div> 
+                  </div>
 
-                  </div>  
+                  </div>
               </div>
-              
-              
+
+
 
               </form>
           </Container>
-          
+
             </div>
             </div>
-        
+
 
         );
 

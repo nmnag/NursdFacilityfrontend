@@ -22,7 +22,7 @@ import { Link } from 'react-router-dom';
 import ShiftsMenu from "../ShiftsMenu";
 import ToolsMenu from "../ToolMenu";
 import AccountsMenu from "../ACMenu";
-  
+
 const columns = [
   { id: 'types', label: 'Types', minWidth: 170 },
   // { id: 'stime', label: 'Start Time', minWidth: 100 },
@@ -121,10 +121,11 @@ const Faci = ()=>{
                 <img src={Group65} alt="Group" className="dflogotop"/>
                 <Link to="/request">
                 <button style={{
+                        marginLeft:'500px',
                         paddingTop:"0.3rem",
-                        paddingRight:"0.7rem",
+                        paddingRight:"0.3rem",
                         paddingBottom:"0.3rem",
-                        paddingLeft:"0.7rem"
+                        paddingLeft:"0.3rem"
                         }}
                         className="dfbutt7" >
                         <span style={{fontSize:"0.9rem"}}>Post a Request</span></button>
@@ -160,13 +161,13 @@ const Faci = ()=>{
                         <div className="dfshifts">
                         <ToolsMenu />
                         </div>
-                        
+
                         <img src={Bell} alt="Bell" className="dfbell"/>
 
                         <div className="ac">
                         <AccountsMenu />
                         </div>
-                        
+
 
 
 
@@ -191,7 +192,7 @@ const Faci = ()=>{
                   <option value="four">Report a Problem</option>
                   <option value="four">Terms & Policies</option>
 
-                </select> 
+                </select>
                 </div> */}
               </Toolbar>
           </AppBar>
@@ -204,28 +205,28 @@ const Faci = ()=>{
   >
     <Toolbar />
     <div className={classes.drawerContainer}>
-      <img src={MaskGrouph} alt="MaskGrouph" className="lfavatar"/>
-      <p className="lfhead"> Anna C. </p>
+      <img src={MaskGrouph} alt="MaskGrouph" className="blnavatar"/>
+      <p className="blnhead"> Anna C. </p>
       <div>
-      <p className="lflist">Schedule </p>
-       <p className="lflist"> <Link to="/schedule">Schedule shifts</Link> </p>
-       <p className="lflist"><Link to="/livefeed" style={{backgroundColor:"#3f51b5", color:"white", borderWidth:10, borderRadius: 5, borderColor:"green"}}> Live Feed </Link></p>
-       <p className="lflist"><Link to="/billing"> Billing </Link></p>
-       <p className="lflist"> <Link to="/shiftset">Shift Settings</Link> </p>
+       <p className="blnlist">Schedule </p>
+       <p className="blnlist"> <Link to="/schedule">Schedule shifts</Link> </p>
+       <p className="blnlist"><Link to="/livefeed" style={{backgroundColor:"#3f51b5", color:"white", borderWidth:10, borderRadius: 5, borderColor:"green"}}> Live Feed </Link></p>
+       <p className="blnlist"><Link to="/billing" > Billing </Link></p>
+       <p className="blnlist"> <Link to="/shiftset">Shift Settings</Link> </p>
 
       </div>
     </div>
   </Drawer>
-        
-  
+
+
         <Container style={{width: "100rem"}}>
               <form>
 
               <h2 className="lfh1"> Live Feed for 12th Jul'20 </h2>
-              
+
               <div style={{marginBottom: "3rem"}}>
                 <Statusone/>
-              
+
               </div>
               <div style={{marginBottom: "3rem"}}>
                 <Statustwo/>
@@ -237,10 +238,10 @@ const Faci = ()=>{
 
               </form>
           </Container>
-          
+
             </div>
             </div>
-        
+
 
         );
 

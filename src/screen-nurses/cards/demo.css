@@ -18,24 +18,23 @@ p{
   background-color: #FFF;
   color: #000000;
 }
-.butt3{
+.cdbutt3{
   display: inline;
-  margin-left: 650px;
+  margin-left: 60px;
   margin-top: 20px;
   background: #1082CB;
   color: white;
   border: 1px solid #1082CB;
   border-radius: 3px;
 }
-.butt3:hover{
+.cdbutt3:hover{
     background: #38b1ff;
     color: white;
-    border: 2px solid #1082CB;
+    border: 1px solid #1082CB;
 }
-.shifts{
-  margin-top: 30px;
+.cdshifts{
+  margin-top: 10px;
   margin-left: 30px;
-  color: black;
 }
 .bell{
   margin-top: 20px;
@@ -315,7 +314,7 @@ appearance: none;
   margin-top: 15px;
 }
 
-.logo{
+.cdlogo{
   margin-top: 30px;
   margin-left: 100px;
 }

@@ -95,12 +95,13 @@ return(
                   <img src={Group} alt="Group" className="logotop"/>
                   <Link to="/n-cards">
                   <button style={{
+                          marginLeft: "630px",
                           paddingTop:"0.3rem",
                           paddingRight:"0.7rem",
                           paddingBottom:"0.3rem",
                           paddingLeft:"0.7rem"
                           }}
-                          className="lolbutt3" >
+                          className="cdbutt3" >
                           <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
                           </Link>
 
