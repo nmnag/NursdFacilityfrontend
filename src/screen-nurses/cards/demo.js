@@ -131,16 +131,17 @@ const Faci = ()=>{
                   <img src={Group} alt="Group" className="logotop"/>
                   <Link to="/n-cards">
                   <button style={{
+                          marginLeft: "630px",
                           paddingTop:"0.3rem",
                           paddingRight:"0.7rem",
                           paddingBottom:"0.3rem",
                           paddingLeft:"0.7rem"
                           }}
-                          className="lolbutt3" >
+                          className="cdbutt3" >
                           <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
                           </Link>
 
-                  <div className="dfshifts">
+                  <div className="cdshifts">
                     <ShiftMenu/>
                     </div>
 
@@ -148,11 +149,11 @@ const Faci = ()=>{
                     Messages
                   </p>
                   <img src={Bell} alt="Bell" className="bell"/>
-                  
+
                   <div className="ac">
                     <ACCMenu/>
                     </div>
-                  
+
                 </Toolbar>
               </AppBar>
             </div>
@@ -163,7 +164,7 @@ const Faci = ()=>{
                       <p classname="sort">Sort by </p>
 
                       <div id="basic-select">
-                         <select className="arrow">
+                         <select style={{marginLeft:'1px', marginRight:'5px' }}className="arrow">
                              <option value=" ">Smart AI</option>
                              <option value="one">One</option>
                              <option value="two">Two</option>
@@ -177,6 +178,7 @@ const Faci = ()=>{
                       <p> Date </p>
                       <MuiPickersUtilsProvider utils={DateFnsUtils}>
                       <KeyboardDatePicker
+                           style={{marginLeft:'5px'}}
                            className = "date"
 
                            id="date-picker-dialog"
@@ -192,12 +194,22 @@ const Faci = ()=>{
                        </Grid>
 
                        <Grid item xs={4}>
-                      <FormGroup>
-                        <FormControlLabel
-                         control={<PurpleSwitch checked={state.checkedA} onChange={handleChange} name="checkedA" />}
-                         label="Immediate joining"
-                        />
-                      </FormGroup>
+                       <p>End-Date </p>
+                       <MuiPickersUtilsProvider utils={DateFnsUtils}>
+                       <KeyboardDatePicker
+                            style={{marginLeft:'5px'}}
+                            className = "date"
+
+                            id="date-picker-dialog"
+                            label=" "
+                            format="MM/dd/yyyy"
+                            value={selectedDate}
+                            onChange={handleDateChange}
+                            KeyboardButtonProps={{
+                               'aria-label': 'change date',
+                                }}
+                       />
+                       </MuiPickersUtilsProvider>
                        </Grid>
                       </Grid>
                       <div>
@@ -530,7 +542,7 @@ const Faci = ()=>{
                   <Container style={{width: "100rem"}}>
                   <Grid container>
                    <Grid item xs={3}>
-                   <img src={Group} alt="Group" className="logo"/>
+                   <img src={Group} alt="Group" className="cdlogo"/>
                    </Grid>
                    <Grid item xs={4}>
                     <div className="about">

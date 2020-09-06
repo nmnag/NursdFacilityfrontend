@@ -103,12 +103,13 @@ const Faci = ()=>{
                   <img src={Group} alt="Group" className="logotop"/>
                   <Link to="/n-cards">
                   <button style={{
+                          marginLeft: "630px",
                           paddingTop:"0.3rem",
                           paddingRight:"0.7rem",
                           paddingBottom:"0.3rem",
                           paddingLeft:"0.7rem"
                           }}
-                          className="lolbutt3" >
+                          className="cdbutt3" >
                           <span style={{fontSize:"0.9rem"}}>Find a Shift</span></button>
                           </Link>
 
@@ -150,7 +151,7 @@ const Faci = ()=>{
           <Container style={{width: "40rem"}}>
               <form>
 
-              
+
               <h2 className="h3"> Account Information </h2>
               <div> <label className="name">
                     <p classname="p"> Email</p>
@@ -179,11 +180,7 @@ const Faci = ()=>{
                 </div>
                 <input  className="in1" type="text" />
               </Grid>
-              {/* <div> <label className="name">
-                    <p classname="p"> Email</p>
-                    </label>
-              </div> */}
-              <input className="inp"  type="text" />
+
                 <Grid item xs={6}>
                 <div> <label className="number">
                              <p className="p">   phone number</p>
@@ -240,7 +237,7 @@ const Faci = ()=>{
                     <p classname="p"> Are you a charge nurse?</p>
                     </label>
                     <div id="basic-select">
-                         <select className="arrow">
+                         <select style={{ marginLeft:'5px'}} className="arrow">
                              <option value=" ">   </option>
                              <option value="one">One</option>
                              <option value="two">Two</option>
@@ -278,7 +275,7 @@ const Faci = ()=>{
                     <p classname="p"> Nursing Experience in a nursing facility or assisted living facility setting </p>
                     </label>
                     <div id="basic-select">
-                         <select className="arrow">
+                         <select style={{marginLeft:'5px'}} className="arrow">
                              <option value=" ">   </option>
                              <option value="one">One</option>
                              <option value="two">Two</option>
@@ -292,7 +289,7 @@ const Faci = ()=>{
                     <p classname="p"> Experience in a hospital acute care setting </p>
                     </label>
                     <div id="basic-select">
-                         <select className="arrow">
+                         <select style={{marginLeft:'5px'}} className="arrow">
                              <option value=" ">   </option>
                              <option value="one">One</option>
                              <option value="two">Two</option>
@@ -309,7 +306,7 @@ const Faci = ()=>{
                   <Container style={{width: "60rem"}}>
                   <Grid container>
                    <Grid item xs={3}>
-                   <img src={Group65} alt="Group65" className="logo"/>
+                   <img src={Group65} alt="Group65" className="cdlogo"/>
                    </Grid>
                    <Grid item xs={4} style={{marginLeft:'50px'}}>
                     <div className="about">
