@@ -39,6 +39,7 @@ import Application from "./screen-nurses/xyz/index";
 import cancelShifts from "./screen-nurses/cancelShifts/index";
 import licenses from "./screen-nurses/licensesProfile/index"; 
 
+import Auth from "./auth";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -48,6 +49,7 @@ ReactDOM.render(
       <Switch>
 
       <Route exact path="/" component={login} />
+      <Route exact path="/auth" component={Auth} />
       {/* <Route exact path="/" component={Dashboard} /> */}
 
 

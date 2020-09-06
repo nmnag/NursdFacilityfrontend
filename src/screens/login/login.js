@@ -22,12 +22,10 @@ import FormControl from '@material-ui/core/FormControl';
 import Visibility from '@material-ui/icons/Visibility';
 import VisibilityOff from '@material-ui/icons/VisibilityOff';
 import { Checkbox } from '@material-ui/core';
-
+import { Link } from 'react-router-dom';
 
 
 const Faci = ()=>{
-
-
 
 
   const useStyles = makeStyles((theme) => ({
@@ -43,7 +41,8 @@ const Faci = ()=>{
       const [values, setValues] = React.useState({
 
         password: '',
-
+        username: '',
+        showUsername: true,
         showPassword: false,
       });
 
@@ -58,6 +57,11 @@ const Faci = ()=>{
 
       const handleMouseDownPassword = (event) => {
         event.preventDefault();
+      };
+      const newTo = { 
+        pathname: "/auth", 
+        param1: values.username,
+        param2: values.password 
       };
 
   return(
@@ -99,15 +103,25 @@ const Faci = ()=>{
                  <Grid item xs={6}>
                    <h2> Hello, </h2>
                    <h2> Welcome Back! </h2>
-                   <div> <label className="loginname">
-                    <p classname="loginp"> Email</p>
-                    </label>
-                   </div>
-                   <input className="logininp1"  type="text" />
+                    <div> 
+                        <label className="loginname">
+                          <p className="loginp"> Email</p>
+                        </label>
+                    </div>
+                   <Input 
+                   type={values.showUsername ? 'text' : 'username'}
+                   className="logininp1"
+                   onChange={handleChange('username')}
+                  //  id={username}
+                  // username={this.state.username}
+                   value={values.username}
+                  //  type="text"
+                   />
                    <FormControl className={clsx(classes.margin, classes.textField)}>
           <p> Password</p>
           <Input
-            id="standard-adornment-password"
+            // id={password}
+            // password={this.state.password}
             type={values.showPassword ? 'text' : 'password'}
             value={values.password}
             onChange={handleChange('password')}
@@ -133,6 +147,8 @@ const Faci = ()=>{
                 <p className="loginpass"> Forgot password? </p>
                 </div>
                 <div>
+                <Link to={newTo}
+                >
                 <button style={{
                         paddingTop:"0.3rem",
                         paddingRight:"0.7rem",
@@ -140,7 +156,7 @@ const Faci = ()=>{
                         paddingLeft:"0.7rem"
                         }}
                         className="loginbutt7" >
-                        <span style={{fontSize:"1.1rem"}}> Login</span></button>
+                        <span style={{fontSize:"1.1rem"}}> Login</span></button></Link>
                   </div>
                   <p className="loginnot"> Not yet registered? </p> <p className="loginsign"> Sign up</p>
                  </Grid>
